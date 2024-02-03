@@ -1,38 +1,199 @@
-.App {
-  text-align: center;
+.menu-bar > span {
+  font-size: 15px;
+}
+.main-logo {
+  font-size: 60px;
+}
+.w-40 {
+  width: 35%;
+}
+.my-btn {
+  width: 30%;
+}
+.img-box {
+  position: relative;
+}
+.menuIcon {
+  display: none !important;
+}
+.img-box > img {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  padding: 20px;
+  width: 60%;
+  height: 100%;
+  object-fit: fill;
+}
+.choose-us {
+  background-color: #eff2f1;
+  height: 100vh;
+}
+.card2,
+.card1 {
+  position: relative;
+  height: 70%;
+  width: 20%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card2 > img {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  height: 70%;
+  object-fit: contain;
+  z-index: 0;
+}
+.card2 > img:hover {
+  top: -20%;
+}
+.card2:hover {
+  background-color: #eeeeee;
+}
+.img-wrapper {
+  width: 100%;
+  height: 100%;
+}
+.img-wrapper > img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+#img-1 {
+  width: 60%;
+  height: 80%;
+  top: 0;
+  left: 5%;
+  position: absolute;
+}
+#img-2 {
+  width: 30%;
+  height: 30%;
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+#img-3 {
+  width: 50%;
+  height: 65%;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width: 990px) {
+  .w-40 {
+    width: 40%;
+  }
+  .my-btn {
+    width: 40%;
+  }
+  .main-logo {
+    font-size: 40px;
+  }
+  .card1 {
+    position: relative;
+    height: 70%;
+    width: 32%;
+  }
+  .card2 {
+    width: 20%;
+  }
+  .card2 > img {
+    height: 80%;
+  }
+  .img-wrapper {
+    display: none;
+  }
+  .product-wrapper1>div{
+    display: none !important;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 768px) {
+  .menu-bar > span {
+    font-size: 12px;
   }
-  to {
-    transform: rotate(360deg);
+  .main-logo {
+    font-size: 35px;
+  }
+  .img-box > img {
+    object-fit: contain;
+  }
+  .w-40 {
+    width: 100%;
+  }
+  .img-box > h2 {
+    font-size: 30px;
+  }
+  .my-btn {
+    width: 25%;
+    font-size: 15px;
+  }
+  .img-box > p {
+    font-size: 15px;
+    width: 40%;
+  }
+  .card1 {
+    width: 30%;
+  }
+  .card2:nth-child(3) {
+    display: none !important;
+    width: 30%;
+  }
+  .image-wrapper {
+    display: none !important;
+  }
+  .img-wrapper-explore {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .menu-bar > span {
+    display: none;
+  }
+  .main-logo {
+    font-size: 30px;
+  }
+  .menuIcon {
+    display: inline !important;
+  }
+  .w-40 {
+    width: 100%;
+  }
+  .my-btn {
+    width: 40%;
+    font-size: 14px;
+  }
+  .img-box > h2 {
+    font-size: 35px;
+    width: 100%;
+  }
+  .img-box > p {
+    font-size: 15px;
+    width: 100%;
+  }
+  .img-box > img {
+    display: none;
+  }
+  .card1 {
+    display: none !important;
+  }
+  .card2 {
+    width: 30%;
+    height: 80%;
+  }
+  .para {
+    display: none !important;
+  }
+  .service-box:nth-child(2),
+  .service-box:nth-child(1) {
+    display: none !important;
+    height: 100%;
+  }
+  .product-wrapper2>div{
+    display: none !important;
   }
 }
