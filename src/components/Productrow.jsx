@@ -3,7 +3,7 @@ import React from "react";
 const Productrow = () => {
   return (
     <div
-      className="row justify-content-around p-4"
+      className="row justify-content-around m-0"
       style={{ backgroundColor: "#eff2f1" }}
     >
       <div className="col-md-0 col-sm-0 col-lg-4  row product-wrapper1">
@@ -40,7 +40,7 @@ const Productrow = () => {
           <main className="text-dark m-0">Read More</main>
         </div>
       </div>
-      <div className="col-md-6 col-lg-4 col-sm-6 row product-wrapper2">
+      <div className="col-md-6 col-lg-4 col-sm-6 row product-wrapper2 m-0">
         <div className="col-6 h-100">
           <img
             src="https://themewagon.github.io/furni/images/product-1.png"

@@ -64,10 +64,10 @@ const ServiceCard = ({ icons, title, description }) => {
     <div className="col-lg-6 col-md-6 col-sm-5 col-12 m-0 p-0 service-box h-50">
       {" "}
       <div className="icons text-dark p-0 m-0">{icons}</div>
-      <p>
-        <h5 className="text-dark p-0 m-0">{title}</h5>
+      <main>
+        <h5 className="text-dark h5 p-0 m-0">{title}</h5>
         <p className="text-dark p-0 m-0">{description}</p>
-      </p>{" "}
+      </main>{" "}
     </div>
   );
 };

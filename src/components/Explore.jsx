@@ -41,24 +41,24 @@ const Explore = () => {
             expedita aspernatur! Veniam exercitationem,
           </p>
           <ul
-            className="row py-md-0 py-sm-4 py-0 p-0 px-lg-2 d-flex justify-content-center align-items-center"
+            className="row m-0 p-0 d-flex justify-content-center align-items-center"
             style={{ listStyle: "circle" }}
           >
-            <li className="col-5 p-md-0 p-sm-2 text-dark p-2">
+            <li className="col-5 p-md-0 p-sm-2 p-0 text-dark ">
               Veniam exercitationem, dolores recusandae unde illo
             </li>
-            <li className="offset-1 col-5 p-0 p-md-0 p-sm-2 p-1 text-dark">
+            <li className="offset-1 col-5 p-0 p-md-0 p-sm-2 p-0 text-dark">
               Veniam exercitationem, dolores recusandae unde illo
             </li>
-            <li className="col-5 p-lg-0 p-md-0 p-sm-2 p-1 text-dark">
+            <li className="col-5 p-lg-0 p-md-0 p-sm-2 p-0 text-dark">
               Veniam exercitationem, dolores recusandae unde illo
             </li>
-            <li className="offset-1 col-5 p-lg-0 p-md-0 p-1 p-sm-2 text-dark">
+            <li className="offset-1 col-5 p-lg-0 p-md-0 p-0 p-sm-2 text-dark">
               Veniam exercitationem, dolores recusandae unde illo
             </li>
           </ul>
-          <div className="btn-wrapper w-75 p-0 m-0">
-            <button className="btn btn-dark rounded-pill py-2 px-2 w-50 h-100">
+          <div className="btn-wrapper w-75 p-0 m-0 my-2">
+            <button className="btn btn-dark rounded-pill py-1 px-1 w-50 ">
               Explore
             </button>
           </div>

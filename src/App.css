@@ -1,6 +1,11 @@
 .menu-bar > span {
   font-size: 15px;
 }
+
+.heading,.para{
+  width: 40%;
+  /* display:none !important; */
+}
 .main-logo {
   font-size: 60px;
 }
